@@ -1,0 +1,46 @@
+.settings-section {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  border: 1px solid #F1F5F9;
+  max-width: 600px;
+}
+
+.settings-section h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1E293B;
+  margin: 0 0 8px;
+}
+
+.settings-section p {
+  font-size: 14px;
+  color: #64748B;
+  margin: 0 0 12px;
+}
+
+.email-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.email-list li {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  color: #1E293B;
+  font-family: monospace;
+}
+
+.hint {
+  font-size: 12px !important;
+  color: #94A3B8 !important;
+  font-style: italic;
+}
