@@ -4,8 +4,11 @@ import './Sidebar.css'
 
 const NAV_ITEMS = [
   { path: '/dashboard', label: 'Дашборд', icon: '📊' },
-  { path: '/olive', label: 'O-Live', icon: '🫒' },
+  { path: '/olive', label: 'Инструменты', icon: '🔧' },
   { path: '/users', label: 'Пользователи', icon: '👥' },
+  { path: '/finance', label: 'Финансы', icon: '💰' },
+  { path: '/reports', label: 'Отчеты', icon: '📋' },
+  { path: '/processes', label: 'Бизнес-процессы', icon: '🔄' },
   { path: '/settings', label: 'Настройки', icon: '⚙️' },
 ]
 

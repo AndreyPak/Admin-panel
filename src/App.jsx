@@ -6,6 +6,9 @@ import Dashboard from './pages/Dashboard'
 import OLivePage from './pages/OLivePage'
 import UsersPage from './pages/UsersPage'
 import SettingsPage from './pages/SettingsPage'
+import FinancePage from './pages/FinancePage'
+import ReportsPage from './pages/ReportsPage'
+import ProcessesPage from './pages/ProcessesPage'
 import './App.css'
 
 function ProtectedLayout() {
@@ -19,6 +22,9 @@ function ProtectedLayout() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/olive" element={<OLivePage />} />
           <Route path="/users" element={<UsersPage />} />
+          <Route path="/finance" element={<FinancePage />} />
+          <Route path="/reports" element={<ReportsPage />} />
+          <Route path="/processes" element={<ProcessesPage />} />
           <Route path="/settings" element={<SettingsPage />} />
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>
