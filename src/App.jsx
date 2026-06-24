@@ -3,6 +3,7 @@ import { AuthProvider, useAuth } from './context/AuthContext'
 import Sidebar from './components/Sidebar'
 import LoginPage from './pages/LoginPage'
 import Dashboard from './pages/Dashboard'
+import OLivePage from './pages/OLivePage'
 import UsersPage from './pages/UsersPage'
 import SettingsPage from './pages/SettingsPage'
 import './App.css'
@@ -16,6 +17,7 @@ function ProtectedLayout() {
       <main className="app-main">
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/olive" element={<OLivePage />} />
           <Route path="/users" element={<UsersPage />} />
           <Route path="/settings" element={<SettingsPage />} />
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
