@@ -5,7 +5,7 @@ export default function ProcessesPage() {
       <ul>
         <li>
           <a
-            href="https://andreypak.github.io/BP_zayavochniy/"
+            href="https://olivekz.app.n8n.cloud/webhook/launcher"
             target="_blank"
             rel="noopener noreferrer"
           >
